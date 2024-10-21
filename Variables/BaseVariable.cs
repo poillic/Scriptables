@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public abstract class BaseVariable<T> : ScriptableObject
+namespace Scriptables
 {
-    public T _value;
+    public abstract class BaseVariable<T> : ScriptableObject
+    {
+        public T _value;
+    }
 }
